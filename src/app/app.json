@@ -1,0 +1,19 @@
+{
+    "icon":{ "className":"btn btn-primary","iconName":"fa fa-home" },
+    "iconBar":{
+        "className":"border border-primary p-2",
+        "icons":[
+            { "className":"btn btn-primary m-1","iconName":"fa fa-home" },
+            { "className":"btn btn-primary m-1","iconName":"fa fa-home" },
+            { "className":"btn btn-primary m-1","iconName":"fa fa-home" }
+        ]
+    },
+    "iconLinkBar":{
+        "className":"nav nav-pills",
+        "links":[
+            { "className":"nav-link","link":"#","text":"Home","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},
+            { "className":"nav-link","link":"#","text":"About","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},
+            { "className":"nav-link","link":"#","text":"Contact","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }}
+        ]
+    }
+}

@@ -4,8 +4,8 @@ import Icon from './icon';
 export default function IconLink(props)
 {
     return (
-        <Link href={props.iconLink.link}>
-            <Icon icon={{iconName: props.iconLink.iconName}} />
+        <Link href={props.iconLink.link} className={props.iconLink.className}>
+            <Icon icon={props.iconLink.icon} />
             {props.iconLink.text}
         </Link>
     )
