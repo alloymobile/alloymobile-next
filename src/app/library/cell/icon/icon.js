@@ -1,4 +1,4 @@
-export default function Icon(props)
+export default function AlloyIcon(props)
 {
     return (
         <span className={props.icon.className}>
