@@ -1,7 +1,7 @@
 import AlloyLinkLogo from "../../cell/link/link-logo";
 import AlloyLinkBar from "../bar/link-bar";
 
-export default function AlloyNavbar(props){
+export default function AlloyNavBar(props){
     return (
         <nav className = {props.navBar.className}>
             <div className="container-fluid">
