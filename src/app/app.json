@@ -1,25 +1,8 @@
 {
-    "icon":{ "className":"btn btn-primary","iconName":"fa fa-home" },
-    "iconBar":{
-        "className":"border border-primary p-2",
-        "icons":[
-            { "className":"btn btn-primary m-1","iconName":"fa fa-home" },
-            { "className":"btn btn-primary m-1","iconName":"fa fa-home" },
-            { "className":"btn btn-primary m-1","iconName":"fa fa-home" }
-        ]
-    },
-    "iconLinkBar":{
-        "className":"nav nav-pills",
-        "links":[
-            { "className":"nav-link","href":"#","name":"Home","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},
-            { "className":"nav-link","href":"#","name":"About","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},
-            { "className":"nav-link","href":"#","name":"Contact","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }}
-        ]
-    },
     "navBar":{
         "className":"navbar navbar-expand-lg navbar-light bg-light",
         "logo":{"name":"Next Library","className":"navbar-brand g-0 m-0 text-primary fs-3","href":"https://sellcallput.com","logo":{"src":"/next.svg","alt":"Next JS","width":"48","height":"auto"}},
-        "linkIconBar":{
+        "linkBar":{
             "className":"nav",
             "links":[
                 { "className":"nav-link","href":"#","name":"Home","active": "","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},

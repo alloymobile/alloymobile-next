@@ -1,5 +1,5 @@
 import AlloyLinkLogo from "../../cell/link/link-logo";
-import AlloyLinkIconBar from "../bar/link-icon-bar";
+import AlloyLinkBar from "../bar/link-bar";
 
 export default function AlloyNavbar(props){
     return (
@@ -13,7 +13,7 @@ export default function AlloyNavbar(props){
 
  
             <div className="navbar-collapse collapse justify-content-end" id="navbarCollapse">
-                <AlloyLinkIconBar linkIconBar={props.navBar.linkIconBar} />
+                <AlloyLinkBar linkBar={props.navBar.linkBar} />
             </div>
 
 
