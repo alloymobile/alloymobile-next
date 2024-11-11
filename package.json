@@ -1,0 +1,22 @@
+{
+  "name": "alloymobile-next",
+  "version": "0.1.6",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "babel src --out-dir dist --copy-files",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
