@@ -1,4 +1,16 @@
 {
+    "button":{"className":"btn btn-primary","name":"Click Me","active": "active", "type":"button"},
+    "buttonIcon":{"className":"btn btn-primary","name":"Click Me icon","active": "active", "type":"button","icon": { "className":"btn btn-primary m-1","iconName":"fa fa-home" }},
+    "card":{
+        "className": "card border m-2 shadow",
+        "body":{"className":"card-body d-flex flex-col","name":"Card Body"},
+        "fields":[
+            {"className":"card-title h5 col-sm-12","name":"Address"},
+            {"className":"card-title h5 col-sm-12","name":"City"},
+            {"className":"card-text col-sm-6","name":"Country"},
+            {"className":"card-text col-sm-6","name":"Zip"}
+        ]
+    },
     "navBar":{
         "className":"navbar navbar-expand-lg navbar-light bg-light",
         "logo":{"name":"Next Library","className":"navbar-brand g-0 m-0 text-primary fs-3","href":"https://sellcallput.com","logo":{"src":"/next.svg","alt":"Next JS","width":"48","height":"auto"}},
