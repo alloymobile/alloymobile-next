@@ -13,7 +13,7 @@
     },
     "navBar":{
         "className":"navbar navbar-expand-lg navbar-light bg-light",
-        "logo":{"name":"Next Library","className":"navbar-brand g-0 m-0 text-primary fs-3","href":"https://sellcallput.com","logo":{"src":"/next.svg","alt":"Next JS","width":"48","height":"auto"}},
+        "logo":{"name":"Library","className":"navbar-brand g-0 m-0 text-primary fs-3","href":"https://sellcallput.com","logo":{"src":"/next.svg","alt":"Next JS","width":"48","height":"auto"}},
         "linkBar":{
             "className":"nav",
             "links":[
@@ -53,5 +53,18 @@
                 {"className":"btn btn-outline-white btn-sm p-2 border-0","href":"https://www.instagram.com/","name":"","active":"","icon":{"className":"btn btn-primary m-1","iconName":"fa fa-home" }}
             ]
         }  
+    },
+    "linkBar":
+    {
+      "className":"nav justify-content-center",
+      "links":[
+        {"name":"Home","className":"nav-link btn-outline-primary","href":"#","active": ""},
+        {"name":"About","className":"nav-link btn-outline-primary","href":"/about","active": ""},
+        {"name":"Terms","className":"nav-link btn-outline-primary","href":"/terms","active": ""},
+        {"name":"Privacy","className":"nav-link btn-outline-primary","href":"/privacy","active": ""},
+        {"name":"Disclaimer","className":"nav-link btn-outline-primary","href":"/disclaimer","active": ""},
+        {"name":"FAQs","className":"nav-link btn-outline-primary","href":"/faq","active": ""},
+        {"name":"Contact","className":"nav-link btn-outline-primary","href":"/contact","active": ""}
+      ]
     }
 }

@@ -3,6 +3,7 @@ import data from './app.json';
 import AlloyButton from './library/cell/button/button';
 import AlloyButtonIcon from './library/cell/button/button-icon';
 import AlloyCard from './library/cell/card/card';
+import AlloyLinkBar from './library/tissue/bar/link-bar';
 import AlloyFooter from './library/tissue/footer/footer';
 import AlloyNavBar from './library/tissue/nav/navbar';
 
@@ -23,7 +24,7 @@ export default function Index() {
             <AlloyButton button={data.button} onClick={handleButtonClick} />
             <AlloyButtonIcon buttonIcon={data.buttonIcon} onClick={handleButtonClick} />
             <p>{buttonOutput}</p>
-            <AlloyCard card={data.card} />
+            <AlloyLinkBar linkBar={data.linkBar} />
             <AlloyFooter footer={data.footer} />
         </div>
     );
